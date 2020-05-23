@@ -1,3 +1,6 @@
+# video running script
+audio-2020-05-24_02.00.09.mp4
+
 # my platform
 1. elemntary OS
 2. google chrome Version 83.0.4103.61
