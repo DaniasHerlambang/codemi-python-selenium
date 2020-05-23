@@ -41,13 +41,6 @@ def login_twitter(username, password, text, path_image):
     sleep(15)
 
 if __name__ == "__main__":
-    # username = '08998934074'
-    # password = 'herlambang13'
-    # text     = 'post test codemi 2020'
-    # # print ('\n')
-    # # print ('example full path image = /home/dns/BACKGROUND/photo-1500907789384-0c3b4c3bdce4.jpeg')
-    # path_image     = '/home/dns/BACKGROUND/photo-1500907789384-0c3b4c3bdce4.jpeg'
-
     username = input("user name : ")
     password = getpass("password  : ")
     text     = input("text tweet : ")
@@ -56,6 +49,4 @@ if __name__ == "__main__":
     print ('\n')
 
     path_image     = input("full path image : ")
-    # username = input("user name : ")
-    # password = getpass("password  : ")
     login_twitter(username, password, text , path_image)
